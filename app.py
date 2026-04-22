@@ -4,6 +4,15 @@ import matplotlib.pyplot as plt
 from scipy.optimize import fsolve
 from scipy.interpolate import interp1d
 
+# --- INTERRUPTOR DE MANTENIMIENTO ---
+en_construccion = True 
+
+if en_construccion:
+    st.title("🚧 Sitio en Mantenimiento")
+    st.subheader("Estamos realizando mejoras técnicas en el simulador")
+    st.write("Volvé a visitarnos pronto")
+    
+    st.stop()
 # --- Configuración de la página ---
 st.set_page_config(page_title="Simulador McCabe-Thiele", page_icon="⚗️", layout="wide")
 
