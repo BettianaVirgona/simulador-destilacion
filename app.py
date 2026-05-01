@@ -5,7 +5,7 @@ from scipy.optimize import fsolve
 from scipy.interpolate import interp1d
 
 # --- INTERRUPTOR DE MANTENIMIENTO ---
-en_construccion = False 
+en_construccion = True 
 
 if en_construccion:
     st.title("🚧 Sitio en Mantenimiento")
